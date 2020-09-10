@@ -1,0 +1,54 @@
+p {
+    color: red;
+  }
+
+img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    z-index:2;
+  }
+  
+  .eyes{
+     position: relative;
+     top: -120px;
+     transform: translateY(-50%);
+     width: 100%;
+     text-align: center; 
+     z-index: 1;
+  }
+
+  .eye{
+      width: 30px;
+      height: 20px;
+      background: #fff;
+      display: inline-block;
+      margin: 10px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .ball{
+      width:8px;
+      height: 13px;
+      background: #000;
+      position: absolute;
+      top: 50%; 
+      left:50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      border: 2px solid brown;
+  }
+
+  .shine{
+    width:6px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
