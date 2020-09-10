@@ -2,6 +2,16 @@ p {
     color: red;
   }
 
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(50deg, #FA709A,#795bb0);
+    margin: 0;
+    height: 100%;
+}
+
 img {
     position: relative;
     display: block;
@@ -9,7 +19,32 @@ img {
     width: 250px;
     height: 250px;
     z-index:2;
+    padding-top: 50px;
   }
+
+
+.container {
+    background: #fff;
+    border: 4px ridge;
+    border-radius: 1%;
+    width: 75%;
+    margin: 0 auto;
+    width: 80%;
+    height: 65%;
+    position: relative;
+    top: -200px;
+}
+
+.testing {
+    background-image: url("../images/pumpkins-bl.png");
+    height: 100%;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+
   
   .eyes{
      position: relative;
