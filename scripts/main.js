@@ -6,7 +6,7 @@
         var x1 = event.clientX/window.innerWidth;
         var y2 = event.clientY/window.innerHeight;
         var pct = 360*(Math.sqrt(x1*x1 + y2*y2));
-        document.body.style.background = "linear-gradient(" + pct + "deg,#FA709A,#795bb0)";
+        document.body.style.background = "linear-gradient(" + pct + "deg,#448753,#795bb0)";
         for (var i = 0; i < 2; i++) {
           balls[i].style.left = x;
           balls[i].style.top = y;
